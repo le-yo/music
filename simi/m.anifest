@@ -1,0 +1,6 @@
+#base line
+live_loop :flibble do
+  sample:bd_haus, rate: 1.1
+  sleep 1.091
+  #sample:
+end
