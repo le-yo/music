@@ -1,9 +1,11 @@
 #base line
 live_loop :flibble do
-  sample:bd_haus, rate: 1.1
+  ##| sample:bd_haus, rate: 1.1, release: 2
+  sample:bd_haus, attack: 0.2, rate: 1.1, release: 4
   sleep 1.091
+  ##| sleep 1.091
   #sample:
-end
+end 
 
 #intro Synth unsynced
 
@@ -18,4 +20,4 @@ play 67, amp: 0.4
 sleep 0.25
 play 71, amp: 1
 sleep 0.30
-play 72, amp: 1 
+play 72, amp: 1
